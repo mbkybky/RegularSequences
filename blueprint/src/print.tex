@@ -19,15 +19,30 @@
 \usepackage{amssymb, amsthm, mathtools}
 \usepackage[unicode,colorlinks=true,linkcolor=blue,urlcolor=magenta, citecolor=blue]{hyperref}
 
+\usepackage{thmtools}
+
 \usepackage[warnings-off={mathtools-colon,mathtools-overbracket}]{unicode-math}
 
 \input{macros/common}
 \input{macros/print}
 
-\title{regular sequences}
-\author{Hu Yongle}
+\usepackage[backend=bibtex,sorting=nyt]{biblatex}
+
+\addbibresource{ref.bib}
+% For dealing with references we use the comment environment
+
+\usepackage{verbatim}
+\newenvironment{reference}{\comment}{\endcomment}
+%\newenvironment{reference}{}{}
+\newenvironment{slogan}{\comment}{\endcomment}
+\newenvironment{history}{\comment}{\endcomment}
+
+\title{Regular Sequences}
+\author{Peking University}
 
 \begin{document}
 \maketitle
 \input{content}
+\appendix
+\printbibliography[heading = bibintoc, title = {References}]
 \end{document}

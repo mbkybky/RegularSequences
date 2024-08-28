@@ -1,8 +1,8 @@
-# RegularSequences
+# Regular Sequences
 
 Formalizing regular sequences in LEAN
 
-We will follow the stacks projects 
+We will follow the [Stacks Project, Section 0AUH](https://stacks.math.columbia.edu/tag/0AUH).
 
 For blueprint, please visit https://mbkybky.github.io/RegularSequences/blueprint/.
 
