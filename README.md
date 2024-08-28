@@ -1,7 +1,9 @@
-# InfiniteGaloisTheory
+# RegularSequences
 
-Formalizing infinite Galois theory in LEAN
+Formalizing regular sequences in LEAN
 
-For blueprint, please visit https://mbkybky.github.io/InfiniteGaloisTheory/blueprint/.
+We will follow the stacks projects 
 
-For API documentation, please visit https://mbkybky.github.io/InfiniteGaloisTheory/docs/.
+For blueprint, please visit https://mbkybky.github.io/RegularSequences/blueprint/.
+
+For API documentation, please visit https://mbkybky.github.io/RegularSequences/docs/.
