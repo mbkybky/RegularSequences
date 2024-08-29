@@ -1,7 +1,4 @@
--- These are tests
-import Mathlib.Tactic.StacksAttribute
+import Mathlib.Tactic.Basic
+import Mathlib.Algebra.Module.Hom
 
-@[stacks 0881 "Foo"]
-theorem foo : True := .intro
-
-#stacks_tags
+variable {R M : Type*} [CommRing R]
