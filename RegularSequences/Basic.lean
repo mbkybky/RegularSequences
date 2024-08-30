@@ -1,4 +1,5 @@
-import Mathlib.Tactic.Basic
-import Mathlib.Algebra.Module.Hom
+import Mathlib.RingTheory.Regular.RegularSequence
 
-variable {R M : Type*} [CommRing R]
+#check RingTheory.Sequence.IsRegular
+
+#check LocalRing.isRegular_of_perm
